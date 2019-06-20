@@ -1,0 +1,13 @@
+- this proj only test for hub command
+- hub work flow:
+    - m0
+        - hub(git) create xm-tech/project-name
+        - add some files && git add . && git commit . -m "commit these files"
+        - git push -u origin master
+    - m1
+        - hub(git) clone somebody/project-name
+        - cd somebody/project-name
+        - hub(git) fork
+    - m2
+        - mkdir -p project-name
+        - hub init
